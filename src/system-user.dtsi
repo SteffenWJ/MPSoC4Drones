@@ -6,4 +6,12 @@
 };
 
 // Custom IP map to UIO
-
+&axi_bram_ctrl_0{
+	compatible = "generic-uio";
+	};
+&axi_bram_ctrl_1{
+	compatible = "generic-uio";
+	};
+&KalmanFilterKernel_0{
+	compatible = "generic-uio";
+	};
